@@ -51,7 +51,7 @@
 					array(
 						'taxonomy' => 'ase_topic',
 						'field'		=> 'slug',
-        				'terms' => 'theme-docs',
+        				'terms' => 'themedocs',
 					)
 				)
 			);
@@ -86,7 +86,7 @@
 					array(
 						'taxonomy' => 'ase_topic',
 						'field'		=> 'slug',
-        				'terms' => 'add-on-docs',
+        				'terms' => 'addon-docs',
 					)
 				)
 			);
