@@ -8,7 +8,7 @@ get_header();
 
 		echo '<div class="ase-docs-right">';
 			?>
-			<p class="lead">Welcome to the Aesop Story Engine Help Center. Below you'll find a guide on getting Aesop Story Engine installed, and to the left you'll find documentation for Aesop Story Engine, as well as all of our products.</p>
+			<p class="lead">Welcome to the Aesop Help Center. Below you'll find a guide on getting Aesop Story Engine installed, and to the left you'll find documentation for Aesop Story Engine, add-ons, and themes .</p>
 			<div class="ase-quick-start">
 
 				<div class="ase-section ase-step-one">
