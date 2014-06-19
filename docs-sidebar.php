@@ -15,7 +15,7 @@
 				'post_type' => 'ase_docs',
 				'tax_query' => array(
 					array(
-						'taxonomy' => 'category',
+						'taxonomy' => 'ase_topic',
 						'field'		=> 'slug',
         				'terms' => 'aesop-story-engine',
 					)
@@ -49,7 +49,7 @@
 				'post_type' => 'ase_docs',
 				'tax_query' => array(
 					array(
-						'taxonomy' => 'category',
+						'taxonomy' => 'ase_topic',
 						'field'		=> 'slug',
         				'terms' => 'theme-docs',
 					)
@@ -84,7 +84,7 @@
 				'post_type' => 'ase_docs',
 				'tax_query' => array(
 					array(
-						'taxonomy' => 'category',
+						'taxonomy' => 'ase_topic',
 						'field'		=> 'slug',
         				'terms' => 'add-on-docs',
 					)

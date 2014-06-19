@@ -5,6 +5,7 @@ class aesopDocsType{
 	function __construct(){
 
 		add_action('init', array($this,'do_type'));
+		add_action( 'init', array($this,'do_tax'));
 
 	}
 
@@ -30,7 +31,7 @@ class aesopDocsType{
 			'description'         => __( 'Aesop Docs', 'ase_docs' ),
 			'labels'              => $labels,
 			'supports'            => array( 'title', 'editor', 'excerpt', ),
-			'taxonomies'          => array( 'category', 'post_tag' ),
+			'taxonomies'          => array( 'topic' ),
 			'hierarchical'        => true,
 			'public'              => true,
 			'show_ui'             => true,
@@ -47,6 +48,35 @@ class aesopDocsType{
 		);
 		register_post_type( 'ase_docs', $args );
 
+	}
+
+	function do_tax(){
+
+		// Add new taxonomy, make it hierarchical (like categories)
+		$labels = array(
+			'name'              => _x( 'Topics', 'taxonomy general name' ),
+			'singular_name'     => _x( 'Topic', 'taxonomy singular name' ),
+			'search_items'      => __( 'Search Topics' ),
+			'all_items'         => __( 'All Topics' ),
+			'parent_item'       => __( 'Parent Topic' ),
+			'parent_item_colon' => __( 'Parent Topic:' ),
+			'edit_item'         => __( 'Edit Topic' ),
+			'update_item'       => __( 'Update Topic' ),
+			'add_new_item'      => __( 'Add New Topic' ),
+			'new_item_name'     => __( 'New Topic Name' ),
+			'menu_name'         => __( 'Topics' ),
+		);
+
+		$args = array(
+			'hierarchical'      => true,
+			'labels'            => $labels,
+			'show_ui'           => true,
+			'show_admin_column' => true,
+			'query_var'         => true,
+			'rewrite'           => array( 'slug' => 'topic' ),
+		);
+
+		register_taxonomy( 'ase_topic', array( 'ase_docs' ), $args );
 	}
 
 }
