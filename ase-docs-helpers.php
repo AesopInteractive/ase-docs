@@ -118,7 +118,7 @@
 
     } else {
 
-        echo '<div class="ase-content ase-docs-breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">';
+        echo '<div class="ase-docs-breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">';
         if ($show_home_link == 1) {
             echo '<a href="' . $home_link . '" rel="v:url" property="v:title">' . $text['home'] . '</a>';
             if ($frontpage_id == 0 || $parent_id != $frontpage_id) echo $delimiter;

@@ -4,8 +4,6 @@ get_header();
 
 	ase_docs_get_template_part('docs-search');
 
-	ase_docs_crumbs();
-
 	?><div class="ase-content ase-docs ase-docs-search">
 
         <?php if ( have_posts() ) : 
@@ -13,7 +11,7 @@ get_header();
         		?><a href="<?php the_permalink();?>"><?php the_title(); ?></a><?php
     		endwhile;
     	else:
-    		?><p>We're sorry but nothing comes up for that search. Try again maybe?</p><?php
+    		?><p>We're sorry but nothing comes up for that search. Try searching again, or head <a href="/help">back</a> to the main help screen.</p><?php
     	endif;
 
     	?>
