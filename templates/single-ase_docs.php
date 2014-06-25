@@ -2,6 +2,10 @@
 
 get_header();
 
+	ase_docs_get_template_part('docs-search');
+
+	ase_docs_crumbs();
+
 	echo '<div class="ase-content ase-docs">';
 
 		ase_docs_get_template_part('docs-sidebar');

@@ -14,8 +14,10 @@ class aesopDocs {
 
 		require_once(ASE_DOCS_DIR.'/type.php');
 		require_once(ASE_DOCS_DIR.'/template-loader.php');
+		require_once(ASE_DOCS_DIR.'/search-loader.php');
 		require_once(ASE_DOCS_DIR.'/ase-docs-helpers.php');
 	}
+
 
 }
 

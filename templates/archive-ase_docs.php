@@ -2,6 +2,9 @@
 
 get_header();
 
+
+	ase_docs_get_template_part('docs-search');
+
 	echo '<div class="ase-content ase-docs">';
 
 		ase_docs_get_template_part('docs-sidebar');

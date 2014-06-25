@@ -13,7 +13,7 @@ class aesopDocsType{
 
 		$labels = array(
 			'name'                => _x( 'Docs', 'Post Type General Name', 'ase_docs' ),
-			'singular_name'       => _x( 'Doc', 'Post Type Singular Name', 'ase_docs' ),
+			'singular_name'       => _x( 'Help', 'Post Type Singular Name', 'ase_docs' ),
 			'menu_name'           => __( 'Docs', 'ase_docs' ),
 			'parent_item_colon'   => __( 'Parent Doc:', 'ase_docs' ),
 			'all_items'           => __( 'All Docs', 'ase_docs' ),
