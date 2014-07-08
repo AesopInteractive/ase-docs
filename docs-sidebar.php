@@ -36,7 +36,7 @@
 	</ul>
 
 	<h6 class="ase-docs-title-elem">Themes</h6>
-	<ul>
+	<ul class="twentyone">
 	<?php
 
 
@@ -71,7 +71,7 @@
 
 	<h6 class="ase-docs-title-elem">Add-Ons</h6>
 
-	<ul>
+	<ul class="twentyone">
 	<?php
 
 
