@@ -24,6 +24,7 @@ get_header();
 		<ul class="unstyled tac">
 			<li><a href="/quick-start-guide">Quick Start Guide</a></li>
 			<li><a href="/forums">Product Support Forum</a></li>
+			<li><a href="/developers">Developer Documentation</a></li>
 		</ul>
 		</div>
 		<?php
