@@ -9,7 +9,7 @@ get_header();
 
 		echo '<div class="ase-docs-welcome">';
 			?>
-			<p class="lead">Welcome to the <em>Aesop Help Center</em>. Find documentation for the Aesop Story Engine plugin, as well as our add-ons, and themes.</p>
+			<p class="lead">Welcome to the <em>Aesop Help Center</em>. Find documentation for the Aesop Story Engine plugin, as well as our add-ons and themes.</p>
 
 			<?php
 		echo '</div>';
